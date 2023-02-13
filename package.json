@@ -1,0 +1,15 @@
+{
+  "name": "simple-tailwind-starter",
+  "version": "1.0.0",
+  "description": "Simple file structure for Tailwind projects",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i senderapp/static/senderapp/src/input.css -o senderapp/static/senderapp/styles.css --watch",
+    "build": "tailwindcss -i senderapp/static/senderapp/src/input.css -o senderapp/static/senderapp/styles.css"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  }
+}
